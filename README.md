@@ -1,6 +1,10 @@
-Jabox ALM
-==========
-Copyright &copy; 2009-, Dimitris Kapanidis. Licensed under [GPL License].
+Jabox ALM over Tomcat7/Ubuntu
+=============================
+
+[WORK IN PROGRESS]
+
+Original Copyright &copy; 2009-, Dimitris Kapanidis. Licensed under [GPL License].
+Fork Copyright &copy; 2012-, by David Gonzalez. Licensed under [GPL License].
 
 [![Build Status](https://secure.travis-ci.org/jabox/jabox.png)](http://travis-ci.org/jabox/jabox)
 
@@ -39,6 +43,20 @@ You can launch jabox directly from command line:
     java -jar jabox-webapp-*-jetty-console.war
 
 or deploy the war to a Servlet Container such as Tomcat.
+
+Install over Tomcat7/Ubuntu
+---------------------------
+
+Steps:
+
+1) Install Tomcat7 over JDK1.6/Ubuntu. 
+2) Copy jabox-*-SNAPSHOT.war as jabox.war in /var/lib/tomcat7/webapps folder.
+3/ create folder .jabox: 
+    md /usr/share/tomcat7/.jabox
+    
+4) give permissions: 
+    sudo chown tomcat7:nogroup /usr/share/tomcat7/.jabox
+
 
 Supported Modules
 =================
