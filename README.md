@@ -51,7 +51,7 @@ Steps:
 
 - Install Tomcat7 over JDK1.6/Ubuntu. 
 - Copy jabox-*-SNAPSHOT.war as jabox.war in /var/lib/tomcat7/webapps folder.
-- Create folder .jabox: md /usr/share/tomcat7/.jabox
+- Create folder .jabox: mkdir /usr/share/tomcat7/.jabox
 - Give permissions: 
     sudo chown tomcat7:nogroup /usr/share/tomcat7/.jabox
 
