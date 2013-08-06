@@ -50,10 +50,10 @@ Install over Tomcat7/Ubuntu
 Steps:
 
 - Install Tomcat7 over JDK1.6/Ubuntu. 
-- Copy jabox-*-SNAPSHOT.war as jabox.war in /var/lib/tomcat7/webapps folder.
+- Change tomcat working port to 9090.
+- Copy jabox-*-SNAPSHOT.war as ROOT.war in /var/lib/tomcat7/webapps folder.
 - Create folder .jabox: mkdir /usr/share/tomcat7/.jabox
-- Give permissions: 
-    sudo chown tomcat7:nogroup /usr/share/tomcat7/.jabox
+- Give permissions: sudo chown tomcat7:nogroup /usr/share/tomcat7/.jabox
 
 
 Supported Modules
